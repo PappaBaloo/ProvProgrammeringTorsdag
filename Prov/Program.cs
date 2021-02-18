@@ -8,12 +8,14 @@ namespace Prov
         static void Main(string[] args)
         {
 
+            //Deklarerar alla variabler som är nödvändiga
             Random föremålvikt = new Random();
 
             List<string> föremål = new List<string>() { "Limpa", "Kexchoklad", "Monster", "Proteindrycka", "Brunsås" };
 
             List<int> vikt = new List<int>();
 
+            //For-loop som visar alla föremål och deras vikter
             for (int i = 0; i < föremål.Count; i++)
             {
 
@@ -27,6 +29,7 @@ namespace Prov
 
             string möjligvikt = Console.ReadLine();
 
+            //stänger programmet om du inte skriver in en siffra
             try
             {
                 int.Parse(möjligvikt);
@@ -36,6 +39,8 @@ namespace Prov
                 Console.WriteLine("Skriv in ett positivt tal tack!");
             }
 
+
+            //For-loop som skriver ut endast de förmål som användaren kan lyfta
             for (int i = 0; i < föremål.Count; i++)
             {
 
