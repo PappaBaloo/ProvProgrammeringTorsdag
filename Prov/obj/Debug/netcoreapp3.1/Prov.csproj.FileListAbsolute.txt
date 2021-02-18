@@ -1,0 +1,13 @@
+C:\Programmering\ProvProgrammeringTorsdag\Prov\bin\Debug\netcoreapp3.1\Prov.exe
+C:\Programmering\ProvProgrammeringTorsdag\Prov\bin\Debug\netcoreapp3.1\Prov.deps.json
+C:\Programmering\ProvProgrammeringTorsdag\Prov\bin\Debug\netcoreapp3.1\Prov.runtimeconfig.json
+C:\Programmering\ProvProgrammeringTorsdag\Prov\bin\Debug\netcoreapp3.1\Prov.runtimeconfig.dev.json
+C:\Programmering\ProvProgrammeringTorsdag\Prov\bin\Debug\netcoreapp3.1\Prov.dll
+C:\Programmering\ProvProgrammeringTorsdag\Prov\bin\Debug\netcoreapp3.1\Prov.pdb
+C:\Programmering\ProvProgrammeringTorsdag\Prov\obj\Debug\netcoreapp3.1\Prov.csprojAssemblyReference.cache
+C:\Programmering\ProvProgrammeringTorsdag\Prov\obj\Debug\netcoreapp3.1\Prov.AssemblyInfoInputs.cache
+C:\Programmering\ProvProgrammeringTorsdag\Prov\obj\Debug\netcoreapp3.1\Prov.AssemblyInfo.cs
+C:\Programmering\ProvProgrammeringTorsdag\Prov\obj\Debug\netcoreapp3.1\Prov.csproj.CoreCompileInputs.cache
+C:\Programmering\ProvProgrammeringTorsdag\Prov\obj\Debug\netcoreapp3.1\Prov.dll
+C:\Programmering\ProvProgrammeringTorsdag\Prov\obj\Debug\netcoreapp3.1\Prov.pdb
+C:\Programmering\ProvProgrammeringTorsdag\Prov\obj\Debug\netcoreapp3.1\Prov.genruntimeconfig.cache
