@@ -7,7 +7,11 @@ namespace Prov
     {
         static void Main(string[] args)
         {
+            TheMethod();
+        }
 
+        private static void TheMethod()
+        {
             //Deklarerar alla variabler som är nödvändiga
             Random föremålvikt = new Random();
 
@@ -29,6 +33,7 @@ namespace Prov
 
             string möjligvikt = Console.ReadLine();
 
+
             //stänger programmet om du inte skriver in en siffra
 
             try
@@ -40,6 +45,8 @@ namespace Prov
                 Console.WriteLine("Skriv in ett positivt tal tack!");
                 Console.ReadLine();
             }
+
+
 
 
             //For-loop som skriver ut endast de förmål som användaren kan lyfta
