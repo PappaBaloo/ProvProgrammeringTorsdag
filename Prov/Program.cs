@@ -30,6 +30,7 @@ namespace Prov
             string möjligvikt = Console.ReadLine();
 
             //stänger programmet om du inte skriver in en siffra
+
             try
             {
                 int.Parse(möjligvikt);
@@ -37,6 +38,7 @@ namespace Prov
             catch
             {
                 Console.WriteLine("Skriv in ett positivt tal tack!");
+                Console.ReadLine();
             }
 
 
