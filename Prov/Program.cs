@@ -23,7 +23,31 @@ namespace Prov
 
             }
 
+            Console.WriteLine("Skriv in hur mycket vikt du kan ta: ");
 
+            string möjligvikt = Console.ReadLine();
+
+            try
+            {
+                int.Parse(möjligvikt);
+            }
+            catch
+            {
+                Console.WriteLine("Skriv in ett positivt tal tack!");
+            }
+
+            for (int i = 0; i < föremål.Count; i++)
+            {
+
+                int fungerandevikt = vikt[i];
+
+                if (fungerandevikt < Convert.ToInt32(möjligvikt) || fungerandevikt == Convert.ToInt32(möjligvikt))
+                {
+                    Console.WriteLine("" + föremål[i] + ": " + vikt[i] + "");
+                }
+
+
+            }
 
             Console.ReadLine();
         }
